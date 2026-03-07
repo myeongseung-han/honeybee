@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import BrandStory from "@/components/BrandStory";
 import Products from "@/components/Products";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -8,9 +9,7 @@ export default function Home() {
       <Hero />
       <BrandStory />
       <Products />
-      <section id="gallery" className="min-h-screen flex items-center justify-center">
-        <h2 className="text-3xl font-bold">갤러리</h2>
-      </section>
+      <Gallery />
       <section id="contact" className="min-h-screen flex items-center justify-center">
         <h2 className="text-3xl font-bold">연락처</h2>
       </section>
