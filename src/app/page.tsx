@@ -1,12 +1,11 @@
 import Hero from "@/components/Hero";
+import BrandStory from "@/components/BrandStory";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <section id="story" className="min-h-screen flex items-center justify-center">
-        <h2 className="text-3xl font-bold">브랜드 스토리</h2>
-      </section>
+      <BrandStory />
       <section id="products" className="min-h-screen flex items-center justify-center">
         <h2 className="text-3xl font-bold">제품 소개</h2>
       </section>
