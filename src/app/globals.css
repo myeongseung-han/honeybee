@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+  --color-honey: #F5A623;
+  --color-honey-dark: #D4920B;
+  --color-honey-light: #FFD980;
+  --color-dark: #1A1A1A;
+  --color-cream: #FFFDF5;
+  --color-brown: #2D1B00;
+  --color-brown-light: #5C3D1A;
+
+  --font-sans: 'Pretendard', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-brown);
+}
