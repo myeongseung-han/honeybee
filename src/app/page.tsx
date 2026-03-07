@@ -10,9 +10,6 @@ export default function Home() {
       <BrandStory />
       <Products />
       <Gallery />
-      <section id="contact" className="min-h-screen flex items-center justify-center">
-        <h2 className="text-3xl font-bold">연락처</h2>
-      </section>
     </main>
   );
 }

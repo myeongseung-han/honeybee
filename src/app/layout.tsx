@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "모래재꿀벌",
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
