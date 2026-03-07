@@ -1,9 +1,9 @@
+import Hero from "@/components/Hero";
+
 export default function Home() {
   return (
     <main>
-      <section id="hero" className="min-h-screen flex items-center justify-center">
-        <h1 className="text-4xl font-bold">히어로 섹션</h1>
-      </section>
+      <Hero />
       <section id="story" className="min-h-screen flex items-center justify-center">
         <h2 className="text-3xl font-bold">브랜드 스토리</h2>
       </section>
